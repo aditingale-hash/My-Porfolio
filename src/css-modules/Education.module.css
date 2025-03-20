@@ -1,0 +1,106 @@
+/* Education Section */
+.educationSection {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 900px;
+  padding: 40px 20px;
+  background: #0a0a0a;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px  #ee56ee;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Heading */
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #f4a261;
+}
+
+.highlight {
+  color:  #ee56ee;
+}
+
+/* Education Items */
+.educationItem {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid  #ee56ee;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  text-align: left;
+  box-shadow: 0px 4px 10px  #ee56ee;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.educationItem:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 15px  #ee56ee;
+}
+
+/* Icon Container */
+.iconContainer {
+  flex: 0 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+/* Education Icons */
+.eduIcon {
+  font-size: 2.5rem;
+  color: #f4a261;
+}
+
+/* Education Details */
+.eduDetails {
+  flex: 1;
+}
+
+/* Degree */
+.degree {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f4a261;
+  margin-bottom: 5px;
+}
+
+/* Institution */
+.institution {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 5px;
+}
+
+/* Duration */
+.duration {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #aaa;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .educationItem {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .iconContainer {
+    margin-bottom: 10px;
+  }
+}

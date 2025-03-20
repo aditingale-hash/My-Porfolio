@@ -1,0 +1,28 @@
+.contact {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #333;
+    display: inline-block;
+  }
+  
+  .info {
+    margin: 0.5rem 0;
+  }
+  
+  .link {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,100 @@
+/* Experience Section */
+.experienceSection {
+  text-align: center;
+  margin: 50px auto;
+  max-width: 900px;
+  padding: 40px 20px;
+  background: #0a0a0a;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px  #ee56ee;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Heading */
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #f4a261;
+}
+
+.highlight {
+  color:  #ee56ee;
+}
+
+/* Carousel Styles */
+.carousel {
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Experience Job Cards */
+.job {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0px 4px 10px  #ee56ee;
+  transition: transform 0.3s ease-in-out;
+  color: white;
+}
+
+.job:hover {
+  transform: scale(1.02);
+}
+
+/* Job Title */
+.jobTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f4a261;
+  margin-bottom: 10px;
+}
+
+/* Job Duration */
+.jobDuration {
+  font-size: 1rem;
+  font-style: italic;
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+/* Job Description List */
+.jobList {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.jobList li {
+  font-size: 1rem;
+  color: #eee;
+  margin-bottom: 5px;
+}
+
+/* Carousel Buttons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  width: 30px;
+  height: 30px;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color:  #ee56ee;
+}
+
+@media (max-width: 768px) {
+  .experienceSection {
+    padding: 20px;
+  }
+}

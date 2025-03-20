@@ -1,0 +1,20 @@
+body {
+  background: url('../public/moon-15608.gif') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  transition: background 0.5s ease-in-out;
+}
+
+/* Dark Overlay for Readability */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); /* Adjust darkness */
+  z-index: -1;
+}

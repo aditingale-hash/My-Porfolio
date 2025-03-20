@@ -1,0 +1,89 @@
+/* Navbar Section */
+.navbar {
+  background: #0a0a0a !important;
+  padding: 10px 20px;
+  box-shadow: 0px 4px 12px  #ee56ee;
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.navbar:hover {
+  box-shadow: 0px 4px 20px  #ee56ee;
+}
+
+/* Brand Name */
+.brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f4a261;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+.brand:hover {
+  color:  #ee56ee !important;
+}
+
+
+.logoIcon {
+  font-size: 1.8rem;
+  color:  #ee56ee;
+}
+
+/* Navigation Links */
+.navLink {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #ddd !important;
+  margin: 0 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navLink:hover {
+  color:  #ee56ee !important;
+}
+
+/* Icons */
+.icon {
+  font-size: 1.1rem;
+  color:  #ee56ee;
+}
+
+/* Download Resume Button */
+.downloadBtn {
+  background: none;
+  color: #f4a261 !important;
+  border: 2px solid #f4a261;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 15px;
+}
+
+.downloadBtn:hover {
+  background: #f4a261;
+  color: rgb(137, 28, 28) !important;
+  border: 2px solid #f4a261;
+}
+
+/* Navbar Toggle Button */
+.toggle {
+  background:  #ee56ee;
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .navLink {
+    margin: 8px 0;
+  }
+
+  .downloadBtn {
+    margin-top: 10px;
+  }
+}
