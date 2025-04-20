@@ -13,7 +13,7 @@ const Header = () => {
   const handleDownload = () => {
     const link = document.createElement('a');
     link.href = process.env.PUBLIC_URL + "/Aditi_Ashok_Ingale-Resume.pdf"; // Ensure resume is in the public folder
-    link.download = "Aditi_Ashok_Ingale-Resume.pdf"; // Custom filename
+    link.download = "Aditi_Ashok_Ingale-CV.pdf"; // Custom filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
